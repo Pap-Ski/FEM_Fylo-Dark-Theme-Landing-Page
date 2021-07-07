@@ -1,0 +1,30 @@
+.howWorks {
+  margin: 4em 0;
+
+  &__img {
+    margin-bottom: 3em;
+    width: 100%;
+  }
+
+  &__container__statement {
+    font-size: 1.3rem;
+    margin-bottom: 1em;
+  }
+
+  &__container__substatement {
+    margin-bottom: 1em;
+  }
+
+  &__container__link {
+    border-bottom: 1px solid $cyan;
+    padding: 0.5em 0;
+    width: 48%;
+    display: flex;
+    gap: 0.5em;
+    text-align: center;
+
+    a {
+      color: $cyan;
+    }
+  }
+}

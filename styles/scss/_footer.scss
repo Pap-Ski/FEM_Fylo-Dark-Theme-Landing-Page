@@ -1,0 +1,55 @@
+footer {
+  position: relative;
+  background-color: $footerBg;
+
+  .footer {
+    padding-top: 18em;
+    padding-left: 1rem;
+    margin-bottom: 3rem;
+
+    .logo {
+      width: 50%;
+      margin-bottom: 2em;
+    }
+
+    &__location {
+      margin-bottom: 2rem;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      gap: 3rem;
+
+      &__icon {
+        width: 20%;
+        height: 2rem;
+      }
+    }
+
+    &__contacts {
+      margin-bottom: 4rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+
+      &__icon {
+        margin-right: 3rem;
+      }
+    }
+    &__links {
+      &__list {
+        li {
+          display: block;
+          margin-bottom: 1em;
+        }
+      }
+    }
+  }
+
+  .attribution {
+    text-align: center;
+    font-size: 0.8rem;
+    a {
+      color: $cyan;
+    }
+  }
+}

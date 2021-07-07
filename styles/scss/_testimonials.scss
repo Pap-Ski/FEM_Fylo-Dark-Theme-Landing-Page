@@ -1,0 +1,41 @@
+.testimonials {
+  //   padding: 0 0.2em;
+  margin-bottom: 10em;
+  &__quote {
+    width: 8%;
+  }
+
+  .testimonial {
+    background: $testimonialBg;
+    border-radius: 0.5em;
+    padding: 2em;
+    margin-bottom: 2em;
+
+    &__statement {
+      font-size: 0.8rem;
+      margin-bottom: 1.5em;
+    }
+
+    &__person {
+      width: 80%;
+      display: flex;
+      gap: 0.5em;
+
+      &__img {
+        border-radius: 50%;
+        width: 20%;
+      }
+
+      &__name {
+        font-size: 0.8rem;
+        font-weight: 700;
+        line-height: 1.5;
+
+        span {
+          font-size: 0.6rem;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

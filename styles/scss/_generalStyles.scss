@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: $ff-body;
+  background: $mainBg url(./../../images/bg-curvy-mobile.svg);
+  color: $clr-nue;
+}
+
+header,
+section,
+footer {
+  padding: 3rem 2rem;
+}
+
+h1,
+h3 {
+  font-family: $ff-headings;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $clr-nue;
+}
+
+.logo {
+  width: 25%;
+}
+
+button {
+  color: $clr-nue;
+  font-family: $ff-headings;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: none;
+  padding: 0.8em;
+  border-radius: 5rem;
+  background: linear-gradient(to right, $cyan, $blue);
+}

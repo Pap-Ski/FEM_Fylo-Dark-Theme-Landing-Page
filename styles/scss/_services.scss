@@ -1,0 +1,13 @@
+.services {
+  text-align: center;
+
+  img {
+    margin-bottom: 1em;
+  }
+  &__service {
+    margin-bottom: 4em;
+  }
+  &__service__statement {
+    margin-bottom: 0.8em;
+  }
+}

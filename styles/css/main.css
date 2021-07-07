@@ -1,0 +1,288 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #181f2a url(./../../images/bg-curvy-mobile.svg);
+  color: white;
+}
+
+header,
+section,
+footer {
+  padding: 3rem 2rem;
+}
+
+h1,
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  width: 25%;
+}
+
+button {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: none;
+  padding: 0.8em;
+  border-radius: 5rem;
+  background: -webkit-gradient(linear, left top, right top, from(#65e2d9), to(#339ecc));
+  background: linear-gradient(to right, #65e2d9, #339ecc);
+}
+
+header {
+  font-family: "Raleway", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+header li {
+  font-size: 1.2rem;
+  margin-left: 0.7em;
+  display: inline-block;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.hero__img {
+  width: 100%;
+}
+
+.hero__statement {
+  margin: 0.6em 0;
+  font-size: 1.8rem;
+}
+
+.hero__substatement {
+  font-size: 1.1rem;
+  margin-bottom: 1.5em;
+}
+
+.hero__button {
+  border: none;
+  width: 70%;
+}
+
+.services {
+  text-align: center;
+}
+
+.services img {
+  margin-bottom: 1em;
+}
+
+.services__service {
+  margin-bottom: 4em;
+}
+
+.services__service__statement {
+  margin-bottom: 0.8em;
+}
+
+.howWorks {
+  margin: 4em 0;
+}
+
+.howWorks__img {
+  margin-bottom: 3em;
+  width: 100%;
+}
+
+.howWorks__container__statement {
+  font-size: 1.3rem;
+  margin-bottom: 1em;
+}
+
+.howWorks__container__substatement {
+  margin-bottom: 1em;
+}
+
+.howWorks__container__link {
+  border-bottom: 1px solid #65e2d9;
+  padding: 0.5em 0;
+  width: 48%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5em;
+  text-align: center;
+}
+
+.howWorks__container__link a {
+  color: #65e2d9;
+}
+
+.testimonials {
+  margin-bottom: 10em;
+}
+
+.testimonials__quote {
+  width: 8%;
+}
+
+.testimonials .testimonial {
+  background: #202a3c;
+  border-radius: 0.5em;
+  padding: 2em;
+  margin-bottom: 2em;
+}
+
+.testimonials .testimonial__statement {
+  font-size: 0.8rem;
+  margin-bottom: 1.5em;
+}
+
+.testimonials .testimonial__person {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5em;
+}
+
+.testimonials .testimonial__person__img {
+  border-radius: 50%;
+  width: 20%;
+}
+
+.testimonials .testimonial__person__name {
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.testimonials .testimonial__person__name span {
+  font-size: 0.6rem;
+  font-weight: 400;
+}
+
+.getStarted {
+  position: absolute;
+  top: -20%;
+  right: 7%;
+  width: 85%;
+  text-align: center;
+  background-color: #1c2431;
+  padding: 3em 2em;
+  border-radius: 0.5em;
+  -webkit-box-shadow: 0 0 1em #0b1423;
+          box-shadow: 0 0 1em #0b1423;
+}
+
+.getStarted * {
+  margin-bottom: 1.5em;
+}
+
+.getStarted__statement {
+  font-size: 1.2rem;
+}
+
+.getStarted__substatement {
+  font-size: 0.94rem;
+}
+
+.getStarted__email {
+  width: 100%;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.6rem;
+  padding: 2em 3em;
+  border-radius: 5rem;
+  margin-bottom: 2em;
+}
+
+.getStarted__button {
+  width: 100%;
+}
+
+footer {
+  position: relative;
+  background-color: #0b1423;
+}
+
+footer .footer {
+  padding-top: 18em;
+  padding-left: 1rem;
+  margin-bottom: 3rem;
+}
+
+footer .footer .logo {
+  width: 50%;
+  margin-bottom: 2em;
+}
+
+footer .footer__location {
+  margin-bottom: 2rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 3rem;
+}
+
+footer .footer__location__icon {
+  width: 20%;
+  height: 2rem;
+}
+
+footer .footer__contacts {
+  margin-bottom: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.5rem;
+}
+
+footer .footer__contacts__icon {
+  margin-right: 3rem;
+}
+
+footer .footer__links__list li {
+  display: block;
+  margin-bottom: 1em;
+}
+
+footer .attribution {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+footer .attribution a {
+  color: #65e2d9;
+}
+/*# sourceMappingURL=main.css.map */

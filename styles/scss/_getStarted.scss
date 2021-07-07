@@ -1,0 +1,37 @@
+.getStarted {
+  position: absolute;
+  top: -20%;
+  right: 7%;
+  width: 85%;
+  text-align: center;
+  background-color: $intro_EmailSignUp;
+  padding: 3em 2em;
+  border-radius: 0.5em;
+  box-shadow: 0 0 1em $footerBg;
+
+  * {
+    margin-bottom: 1.5em;
+  }
+
+  &__statement {
+    font-size: 1.2rem;
+  }
+
+  &__substatement {
+    font-size: 0.94rem;
+  }
+
+  &__email {
+    width: 100%;
+    color: $clr-nue;
+    font-family: $ff-headings;
+    font-size: 0.6rem;
+    padding: 2em 3em;
+    border-radius: 5rem;
+    margin-bottom: 2em;
+  }
+
+  &__button {
+    width: 100%;
+  }
+}
