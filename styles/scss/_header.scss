@@ -9,4 +9,11 @@ header {
     margin-left: 0.7em;
     display: inline-block;
   }
+
+  a {
+    &:hover {
+      font-weight: 700;
+      text-decoration: underline;
+    }
+  }
 }

@@ -23,7 +23,7 @@
 
       &__img {
         border-radius: 50%;
-        width: 20%;
+        max-width: 2rem;
       }
 
       &__name {
@@ -36,6 +36,25 @@
           font-weight: 400;
         }
       }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .testimonials {
+    position: relative;
+    display: flex;
+    gap: 1em;
+    margin-bottom: 15em;
+
+    &__quote {
+      position: absolute;
+      top: -1%;
+      z-index: -1;
+      width: 8%;
+    }
+
+    .testimonial {
     }
   }
 }

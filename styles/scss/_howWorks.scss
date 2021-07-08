@@ -1,5 +1,5 @@
 .howWorks {
-  margin: 4em 0;
+  margin: 2em 0;
 
   &__img {
     margin-bottom: 3em;
@@ -18,13 +18,30 @@
   &__container__link {
     border-bottom: 1px solid $cyan;
     padding: 0.5em 0;
-    width: 48%;
+    max-width: 10.8rem;
     display: flex;
     gap: 0.5em;
     text-align: center;
 
     a {
       color: $cyan;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .howWorks {
+    text-align: center;
+
+    &__img {
+      width: 60%;
+      text-align: center;
+    }
+    &__container__statement {
+      text-align: left;
+    }
+    &__container__substatement {
+      text-align: left;
     }
   }
 }

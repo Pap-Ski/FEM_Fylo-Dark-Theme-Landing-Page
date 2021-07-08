@@ -47,4 +47,15 @@ button {
   padding: 0.8em;
   border-radius: 5rem;
   background: linear-gradient(to right, $cyan, $blue);
+
+  &:hover {
+    background: $cyan;
+    cursor: pointer;
+  }
 }
+
+// @media (min-width: 768px) {
+//   * {
+//     font-size: 150%;
+//   }
+// }

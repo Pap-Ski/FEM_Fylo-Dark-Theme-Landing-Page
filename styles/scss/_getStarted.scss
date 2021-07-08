@@ -35,3 +35,14 @@
     width: 100%;
   }
 }
+
+@media (min-width: 768px) {
+  .getStarted {
+    width: 60%;
+    right: 20%;
+
+    &__button {
+      width: 60%;
+    }
+  }
+}

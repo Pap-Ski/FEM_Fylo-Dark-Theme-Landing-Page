@@ -5,9 +5,17 @@
     margin-bottom: 1em;
   }
   &__service {
-    margin-bottom: 4em;
+    margin-bottom: 3em;
   }
   &__service__statement {
     margin-bottom: 0.8em;
+  }
+}
+
+@media (min-width: 768px) {
+  .services {
+    &__service__substatement {
+      padding: 0 12em;
+    }
   }
 }
