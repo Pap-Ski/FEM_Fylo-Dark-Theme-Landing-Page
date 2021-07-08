@@ -19,3 +19,16 @@
     }
   }
 }
+
+@media (min-width: 1366px) {
+  .services {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    &__service__substatement {
+      padding: 0 10em;
+      font-size: 0.9rem;
+    }
+  }
+}

@@ -1,6 +1,6 @@
 .testimonials {
   //   padding: 0 0.2em;
-  margin-bottom: 10em;
+  margin-bottom: 15em;
   &__quote {
     width: 8%;
   }
@@ -53,8 +53,22 @@
       z-index: -1;
       width: 8%;
     }
+  }
+}
+
+@media (min-width: 1366px) {
+  .testimonials {
+    gap: 2.5em;
+    &__quote {
+      top: 13%;
+      left: 6%;
+      width: 4%;
+    }
 
     .testimonial {
+      &__statement {
+        font-size: 1.1rem;
+      }
     }
   }
 }

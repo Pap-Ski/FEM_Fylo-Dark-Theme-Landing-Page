@@ -46,3 +46,31 @@
     }
   }
 }
+
+@media (min-width: 1366px) {
+  .getStarted {
+    padding: 3em 5em;
+    &__emailsection {
+      display: flex;
+      justify-content: space-between;
+    }
+    &__statement {
+      font-size: 2rem;
+      margin-bottom: 1em;
+    }
+    &__substatement {
+      font-size: 1rem;
+    }
+    &__email {
+      color: black;
+      width: 65%;
+      margin-bottom: 0;
+      font-size: 1rem;
+      padding: 0 2em;
+    }
+    &__button {
+      width: 30%;
+      margin-bottom: 0;
+    }
+  }
+}

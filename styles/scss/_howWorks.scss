@@ -25,6 +25,18 @@
 
     a {
       color: $cyan;
+
+      &:hover {
+        color: $clr-nue;
+      }
+    }
+
+    &:hover {
+      border-bottom-color: $clr-nue;
+    }
+
+    &__icon:hover {
+      color: $clr-nue;
     }
   }
 }
@@ -42,6 +54,29 @@
     }
     &__container__substatement {
       text-align: left;
+    }
+  }
+}
+
+@media (min-width: 1366px) {
+  .howWorks {
+    display: flex;
+    gap: 3em;
+
+    &__img {
+      width: 50%;
+    }
+    &__container {
+      padding-right: 6em;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    &__container__statement {
+      font-size: 3rem;
+    }
+    &__container__substatement {
+      font-size: 1.1rem;
     }
   }
 }

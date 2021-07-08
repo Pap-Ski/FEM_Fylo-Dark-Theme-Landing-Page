@@ -65,6 +65,7 @@ footer {
 
         &:hover {
           color: $cyan;
+          border-color: $cyan;
         }
       }
     }
@@ -101,5 +102,33 @@ footer {
         justify-content: space-between;
       }
     }
+  }
+}
+
+@media (min-width: 1366px) {
+  footer {
+    .footer {
+      padding-top: 10em;
+      grid-template-columns: 2fr repeat(3, 1fr);
+
+      .logo {
+        width: 13%;
+        grid-column: 1/5;
+      }
+
+      &__social-media-icons {
+        margin: 0;
+        width: 60%;
+      }
+
+      &__links__list {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  .attribution {
+    margin-top: 5em;
   }
 }

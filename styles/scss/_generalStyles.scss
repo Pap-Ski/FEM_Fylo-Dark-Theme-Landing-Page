@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: $ff-body;
-  background: $mainBg url(./../../images/bg-curvy-mobile.svg);
+  background: $mainBg;
   color: $clr-nue;
 }
 
@@ -54,8 +54,10 @@ button {
   }
 }
 
-// @media (min-width: 768px) {
-//   * {
-//     font-size: 150%;
-//   }
-// }
+@media (min-width: 1366px) {
+  header,
+  section,
+  footer {
+    padding: 6rem;
+  }
+}

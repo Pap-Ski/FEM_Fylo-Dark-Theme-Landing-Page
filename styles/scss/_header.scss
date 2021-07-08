@@ -2,7 +2,7 @@ header {
   font-family: $ff-headings;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1em;
+  background-color: $intro_EmailSignUp;
 
   li {
     font-size: 1.2rem;
@@ -14,6 +14,18 @@ header {
     &:hover {
       font-weight: 700;
       text-decoration: underline;
+    }
+  }
+}
+
+@media (min-width: 1366px) {
+  header {
+    .logo {
+      width: 13%;
+    }
+
+    li {
+      margin-left: 4em;
     }
   }
 }
