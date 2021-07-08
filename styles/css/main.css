@@ -385,7 +385,7 @@ header a:hover {
 
 .getStarted__email {
   width: 100%;
-  color: white;
+  color: black;
   font-family: "Raleway", sans-serif;
   font-size: 0.6rem;
   padding: 2em 3em;
@@ -427,7 +427,6 @@ header a:hover {
     font-size: 1rem;
   }
   .getStarted__email {
-    color: black;
     width: 65%;
     margin-bottom: 0;
     font-size: 1rem;
